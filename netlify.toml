@@ -10,11 +10,11 @@
   #  from = "/*"
   #  to = "/index.html"
   #  status = 200
-  #[[redirects]]
-  #from = "https://perimeterianakamai.fun/*"
-  #to = "https://www.perimeterianakamai.fun/:splat"
-  #status = 301
-  #force = true
+  [[redirects]]
+  from = "https://perimeterianakamai.fun/*"
+  to = "https://www.perimeterianakamai.fun/:splat"
+  status = 301
+  force = true
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
